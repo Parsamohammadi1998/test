@@ -1,0 +1,222 @@
+body {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  max-width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(155, 154, 154);
+  background-repeat: no-repeat;
+  color: rgb(220, 220, 220);
+  text-align: center;
+}
+
+  .container {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+.div {
+  float: right;
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 40vh;
+  padding: 5px;
+}
+
+.head-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.designedby {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.dev {
+  color: rgb(10, 10, 10);
+  margin-left: 70%;
+}
+
+.heading-text {
+  border: 0px solid rgb(3, 3, 3);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-right: 80%;
+}
+
+.header {
+  background-color: rgb(8, 33, 249);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 110px;
+}
+
+.headbox {
+  display: flex;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+
+}
+
+.headbox:first-child {
+  margin-right: 40px;
+}
+
+.button {
+  color: white;
+  background-color: #050505ba;
+  cursor: auto;
+  scale: 1;
+  box-shadow: inset;
+}
+
+.button:hover {
+  scale: 1.05;
+  box-shadow: 0px 0px 20px rgb(249, 59, 59);
+
+}
+
+.main-container {
+  background-color: #07a0edc6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.albumcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.album {
+  padding: 20px;
+  margin: 50px 100px;
+}
+
+.textarea {
+  max-width: 250px;
+  padding: 10px;
+}
+
+.products {
+  background-color: #7a4c8bba;
+  padding: 40px 10px;
+
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  align-items: space-evenly;
+  justify-content: space-evenly;
+}
+
+.product {
+  margin: 10px 30px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.textcard {
+  margin-left: 20px;
+}
+
+.boxshadow {
+  border-radius: 8px;
+  box-shadow: 0px 0px 30px rgb(255, 255, 255);
+}
+
+.lightbox {
+  border-radius: 8px;
+  box-shadow: 0px 0px 30px rgb(24, 24, 24);
+}
+
+.cardimage {
+  border-radius: 15px;
+}
+
+.culproducts {
+  margin-top: 30px;
+  padding: 40px;
+  color: black;
+  background-color: #ffffffba;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.culproduct {
+  padding: 30px;
+  max-width: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: middle;
+}
+
+.cultextcard {
+  margin: 20px 10px;
+}
+
+.lightbtn {
+  background-color: #faefefba;
+  cursor: pointer;
+  scale: 1;
+  box-shadow: 0px 0px 11px black;
+}
+
+.lightbtn:hover {
+  scale: 1.05;
+  box-shadow: 0px 0px 25px black;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer {
+  color: black;
+  background-color: rgb(155,154,154);
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footerphrases {
+  padding: 130px;
+  line-height: 20px;
+}
+
+.border {
+  border: 1px hidden black;
+}
+
+.lordicon {
+  visibility: hidden;
+}
